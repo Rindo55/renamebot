@@ -18,7 +18,7 @@ class Config(object):
     DOWNLOAD_DIR = "./downloads"
     LOGGER = logging
     OWNER_ID = "1443454117"
-    PRO_USERS = list(set(int(x) for x in ("1316473946, 1443454117").split()))
+    PRO_USERS = ""
     PRO_USERS.append(OWNER_ID)
     MONGODB_URI = "mongodb+srv://erai:test@cluster0.klm94v8.mongodb.net/?retryWrites=true&w=majority"
     LOG_CHANNEL = int("-1001730306649")
