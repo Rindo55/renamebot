@@ -18,7 +18,7 @@ class Config(object):
     DOWNLOAD_DIR = "./downloads"
     LOGGER = logging
     OWNER_ID = 1443454117
-    PRO_USERS = 1443454117
+    PRO_USERS = [1443454117]
     MONGODB_URI = "mongodb+srv://720p:hevc@cluster0.fw3dwgb.mongodb.net/?retryWrites=true&w=majority"
     LOG_CHANNEL = int("-1001870386819")
     BROADCAST_AS_COPY = bool("False")
